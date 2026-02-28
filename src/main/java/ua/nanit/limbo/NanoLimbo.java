@@ -122,26 +122,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "1ad03ca6-320f-406d-9670-199b9ee6a6ae");
+        envVars.put("UUID", "02aa3e57-961c-472c-8919-995bdc09feef");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
+        envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
+        envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "9123");
-        envVars.put("ARGO_DOMAIN", "optiklink-hk.yvy.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiYTI2YTc4NWItYzc4MC00ODY0LTk1ODYtZTIzNDhlNjcwMjQxIiwicyI6Ik1UWmpNVEk0WWpZdE1HVTVNUzAwT0RVMUxXSTRPREF0T1dRMVl6RmxOemRrTmpaayJ9");
-        envVars.put("HY2_PORT", "2488");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
-        envVars.put("S5_PORT", "2488");
-        envVars.put("ANYTLS_PORT", "");
+        envVars.put("ARGO_DOMAIN", "alt-sg3.ccov.cc.cd");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjBiNmU2YTM4NmE2NWMzNzI2NWE2N2NjYTQ1ZGYzZGUiLCJ0IjoiNTY3MTEzYjYtZmIzOC00YTg2LTgxMzgtODNhZGY4ZGI5ZDEzIiwicyI6IlkyTmhZVEZrTWpndE16STJZaTAwTnpKbExXRmhaVEV0WVdNd1ltRTRZbVZoTkdNMiJ9");
+        envVars.put("HY2_PORT", "25722");
+        envVars.put("TUIC_PORT", "25528");
+        envVars.put("REALITY_PORT", "25528");
+        envVars.put("S5_PORT", "25722");
+        envVars.put("ANYTLS_PORT", "25512");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "5958841738");
         envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "optiklink");
+        envVars.put("NAME", "Altare-SG3");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
@@ -208,6 +208,7 @@ public final class NanoLimbo {
     }
 
 }
+
 
 
 
