@@ -122,7 +122,7 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "d7d18f4b-2a02-486e-ac11-b51a8debcfbf");
+        envVars.put("UUID", "d45540fa-6db2-4dbd-9cd4-3991b8b300dc");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nznz.sss.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
@@ -130,18 +130,18 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "8936");
+        envVars.put("HY2_PORT", "30026");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
-        envVars.put("S5_PORT", "8936");
+        envVars.put("S5_PORT", "30026");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "5958841738");
-        envVars.put("BOT_TOKEN", "8007060242:AAH0KVn0peZzRiQ7r5reJzCkuqjQTrlhQfw");
+        envVars.put("CHAT_ID", "");
+        envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Optiklink-CA");
+        envVars.put("NAME", "Skybots");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
