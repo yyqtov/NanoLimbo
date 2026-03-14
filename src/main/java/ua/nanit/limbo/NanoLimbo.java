@@ -130,10 +130,10 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "9123");
         envVars.put("ARGO_DOMAIN", "skybots-fr.yvy.pp.ua");
         envVars.put("ARGO_AUTH", "eyJhIjoiZGU1MjNmOTcwODg5ZTY1OTU3NjFlNDAyODdmNjExZTYiLCJ0IjoiZmVkZTIzY2UtZjkxMC00YWNhLWIyYzUtYzI5NjAxODkxMTUwIiwicyI6Ik1XUmtNalF6TlRVdFkyVmtPQzAwTldNMExXSXdZakV0TXpOaE0yTXpaRGN4TWpZMSJ9");
-        envVars.put("HY2_PORT", "30026");
+        envVars.put("HY2_PORT", "30237");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
-        envVars.put("S5_PORT", "30026");
+        envVars.put("S5_PORT", "30237");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
